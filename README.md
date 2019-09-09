@@ -1,2 +1,2 @@
 # Intro to Web Dev
-Work for IDM Web Dev class
+Work for IDM Web Development class
