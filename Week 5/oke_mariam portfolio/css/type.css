@@ -1,0 +1,50 @@
+.arrow{
+  border:none ;
+  background-color: rgba(255, 255, 255,0);
+  cursor: pointer;
+  position:relative;
+  left:370px;
+  top:300px;
+
+}
+.menu{
+  border:none ;
+  background-color: rgba(255, 255, 255,0);
+  font-size: 20px;
+  cursor: pointer;
+}
+/* I used code from W3 Schools to make the dropdown menu*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.icon {
+    border:none ;
+    background-color: rgba(255, 255, 255,0);
+    font-size: 20px;
+    cursor: pointer;
+
+
+}
