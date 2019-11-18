@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800&display=swap');
+
+
+h3,h5,h6,p,a{
+  font-family: 'Montserrat',sans-serif;
+}
+h4{
+  font-family:'Anton', sans-serif;
+  font-size: 2rem;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+
+}
+
+h3{
+  font-size:3rem;
+}
+
+h5{
+  font-size:1.75rem;
+  font-weight:lighter;
+}
+
+h6{
+  font-size:1.5rem;
+
+}
+
+a{
+  font-size:1.125rem;
+  color:white;
+  text-decoration: none;
+}
+
+p{
+  font-size:1rem;
+}
+
+.arrow{
+  border:none;
+  color:white;
+  background-color: rgba(255, 255, 255,0);
+  cursor: pointer;
+  margin: auto;
+  font-size: 80px;
+  display:flex;
+  position: absolute;
+  top:75%;
+  right:45%;
+
+}
+
+.menu{
+  color:white;
+  border:none;
+  background-color: rgba(255, 255, 255,0);
+  font-size: 40px;
+  cursor: pointer;
+  float:right;
+
+
+}
+/* I used code from W3 Schools to make the dropdown menu*/
+.dropdown {
+  position: relative;
+  float:right;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+  right:0;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+
+}
+.icon {
+    border:none ;
+    color:white;
+    background-color: rgba(255, 255, 255,0);
+    font-size: 25px;
+    cursor: pointer;
+
+}
+
+.icon:hover{
+  color:#2130ff;
+}
+
+.arrow:hover{
+  color:#5feb4c;
+}
+
+.work_dropdown:hover .dropdown_menu{
+  display:block;
+
+}
+
+.dropdown-content a:hover {
+  color:#2130ff;
+  background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display:flex;
+
+}
+
+.dropdown:hover .menu {color:rgba(255, 255, 255,0);}
+
+
+.dropdown_menu{
+  display:none;
+}
