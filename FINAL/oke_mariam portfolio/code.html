@@ -1,0 +1,126 @@
+<!doctype html>
+
+
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="description" content="code">
+  <title>Code</title>
+  <meta name="keywords" content="Code">
+  <meta name="author" content="Mariam">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- THIS IS A LINK TO THE EXTERNAL .CSS -->
+
+  <link rel="stylesheet" href="css/type.css">
+  <link rel="stylesheet" href="css/flex.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- THIS IS A LINK TO FONTAWESOME ICONS-->
+  <script src="https://kit.fontawesome.com/c645fc158a.js" crossorigin="anonymous"></script>
+
+  <!--  LINK TO JQUERY-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+</head>
+
+<body style="background: #000">
+  <div class="container">
+
+    <!-- ROW 1: NAV AND LOGO  -->
+    <div class="row-flex">
+      <div class="flex-4" style="height:70px">
+        <div class="logo" onclick="window.location.href='./index.html'">
+          <img src="./img/logo2_2.png" alt="">
+        </div>
+      </div>
+      <div class="flex-8 make_flex" style="height:30px; background-color:black">
+        <div class="dropdown">
+          <button class="menu"><i class="fas fa-bars"></i></button>
+          <div class="dropdown-content">
+            <div class="work_dropdown">
+              <a href="./work.html">Work</a>
+              <div class="dropdown_menu">
+                <a href="./photography.html"> Photography</a>
+                <a href="./videography.html"> Videography</a>
+                <a href="./code.html"> Code</a>
+              </div>
+            </div>
+            <div>
+              <a href="./about.html">About</a>
+            </div>
+
+
+
+            <div>
+              <a href="./contact.html">Contact</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- ROW 2: PAGE TITLE  -->
+    <div class="row-flex">
+      <div class="flex-12 make_flex_center" style="height:150px; background-color:#2130ff;">
+        <h5 style="font-size:3rem; color:black; margin-top:50px;">CODE</h5>
+      </div>
+      </div>
+
+<!-- ROW 3: CODE IMAGES -->
+    <div class="row-flex">
+
+      <div class="card photos flex-6 make_flex" style="height:500px;" onclick="window.open('https://www.openprocessing.org/sketch/608325');">
+        <img src="./img/codedcolors.png" alt="">
+      </div>
+
+      <div class="card photos flex-6 make_flex" style="height:500px;" onclick="window.open('https://www.openprocessing.org/sketch/593027');">
+        <img src="./img/sketch2.png" alt="">
+      </div>
+      <div class="card photos flex-6 make_flex" style="height:500px;" onclick="window.open('https://github.com/mxrixm/CreativeCoding_Final_Project/tree/master/Oke_M_final_project');">
+        <img src="./img/solar.png" alt="">
+      </div>
+
+      <div class="card flex-6 make_flex" style="height:500px;" onclick="window.open('https://www.openprocessing.org/sketch/616277');">
+        <img src ="./img/sketch4.png" alt="">
+      </div>
+      <div class="card photos flex-6 make_flex" style="height:500px;" onclick="window.open('https://www.openprocessing.org/sketch/625116');">
+        <img src ="./img/sketch5.png" alt="">
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- FOOTER  -->
+  <div class="row-flex">
+
+    <div class="flex-12 make_flex_center" style="background-color:#5FEB4C;height:50px;">
+
+      <button class="icon" onclick="window.open('https://www.instagram.com/ok.mariam/'); return false"><i class="fab fa-instagram"></i></button>
+      <button class="icon"  onclick="window.open('https://www.linkedin.com/in/mariam-oke/'); return false"><i class="fab fa-linkedin-in"></i></button>
+      <button class="icon" onclick="window.open('https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=mariamx311@gmail.com'); return false"><i class="far fa-envelope"></i></button>
+
+    <!-- COPYRIGHT INFO -->
+    </div>
+    <p style="color:white;">
+      © 2019 Mariam Oke
+
+    </p>
+
+  </div>
+
+  <div class="my_modal" id="my_modal" style="display:none;">
+  </div>
+
+  <button class="arrow2" onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-down"></i></button>
+
+  <!-- LINK TO EXTERNAL JS -->
+  <script src="main.js"></script>
+
+</body>
+</html>

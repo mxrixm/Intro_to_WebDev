@@ -1,0 +1,108 @@
+<!doctype html>
+
+
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="description" content="photos">
+  <title>Work</title>
+  <meta name="keywords" content="Photography, Videography, Code">
+  <meta name="author" content="Mariam">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- THIS IS A LINK TO THE EXTERNAL .CSS -->
+
+  <link rel="stylesheet" href="css/type.css">
+  <link rel="stylesheet" href="css/flex.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- THIS IS A LINK TO FONTAWESOME ICONS-->
+  <script src="https://kit.fontawesome.com/c645fc158a.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<body style="background: black">
+  <div class="container">
+
+    <!-- ROW 1: MENU AND LOGO -->
+    <div class="row-flex">
+      <div class="flex-4" style="height:70px">
+        <div class="logo" onclick="window.location.href='./index.html'">
+          <img src="./img/logo2_2.png" alt="">
+        </div>
+      </div>
+      <div class="flex-8 make_flex" style="height:30px; background-color:black">
+        <div class="dropdown">
+          <button class="menu"><i class="fas fa-bars"></i></button>
+          <div class="dropdown-content">
+            <div class="work_dropdown">
+              <a href="./work.html">Work</a>
+              <div class="dropdown_menu">
+                <a href="./photography.html"> Photography</a>
+                <a href="./videography.html"> Videography</a>
+                <a href="./code.html"> Code</a>
+              </div>
+            </div>
+            <div>
+              <a href="./about.html">About</a>
+            </div>
+
+            <div>
+              <a href="./contact.html">Contact</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- ROW 2: PHOTOGRAPHY, VIDEOGRAPHY, AND CODE CARDS -->
+    <div class="row-flex">
+
+      <div class="work_card flex-12 make_flex_center" style="cursor:pointer; background-image:url(./img/DSCN1995.jpg); background-size:cover; color:white; height:250px;"
+      onclick="window.open('./photography.html','_self'); return false">
+        <h5 style="color:#9ceb82; font-size: 3rem; font-weight:bold; -webkit-text-stroke-width: 2px;
+          -webkit-text-stroke-color: #000;">PHOTOGRAPHY</h5>
+      </div>
+
+
+      <div class="work_card flex-12 make_flex_center" style="cursor:pointer; background-image:url(./img/paint.png); background-size:cover; color:white; height:250px;"
+      onclick="window.open('./videography.html','_self'); return false">
+        <h5 style="color:#9ceb82; font-size: 3rem; font-weight:bold; -webkit-text-stroke-width: 2px;
+          -webkit-text-stroke-color: #000;">VIDEOGRAPHY</h5>
+      </div>
+
+
+      <div class="work_card flex-12 make_flex_center" style="cursor:pointer; background-image:url(./img/codedcolors.png); background-size:cover; color:white; height:250px;"
+      onclick="window.open('./code.html','_self'); return false">
+        <h5 style="color:#9ceb82; font-size: 3rem; font-weight:bold; -webkit-text-stroke-width: 2px;
+          -webkit-text-stroke-color: #000;"> CODE</h5>
+      </div>
+    </div>
+
+    <!-- FOOTER w/ SOCIAL LINKS -->
+    <div class="row-flex">
+
+      <div class="flex-12 make_flex_center" style="background-color:#5FEB4C; height:50px;">
+
+        <button class="icon" onclick="window.open('https://www.instagram.com/ok.mariam/'); return false"><i class="fab fa-instagram"></i></button>
+        <button class="icon"  onclick="window.open('https://www.linkedin.com/in/mariam-oke/'); return false"><i class="fab fa-linkedin-in"></i></button>
+        <button class="icon" onclick="window.open('https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=mariamx311@gmail.com'); return false"><i class="far fa-envelope"></i></button>
+
+
+      </div>
+      <!-- COPYRIGHT INFO -->
+      <p style="color:white;">
+        © 2019 Mariam Oke
+
+      </p>
+
+    </div>
+  </div>
+
+</body>
